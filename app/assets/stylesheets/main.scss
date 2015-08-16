@@ -1,3 +1,49 @@
 // Place all the styles related to the Main controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+
+#index {
+
+	.logo {
+		display: block;
+		width: 8em;
+		margin: auto;
+
+		img {
+			display: block;
+			width: 100%;
+
+		}
+	}
+
+	.slider {
+		margin-top: 1em;
+		
+		.static {
+			position: relative;
+			display: block;
+			width: 10em;
+			margin: auto;
+		}
+	}
+
+	.information {
+		text-align: center;
+		margin-top: 4em;
+
+
+
+		h1 {
+			font-family: 'Lobster', cursive;
+		}
+
+		p {
+			font-family: 'Open Sans', sans-serif;
+			font-weight: 300;
+			font-size: 1.1em;
+			line-height: 1.75em;
+		}
+	}
+}

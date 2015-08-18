@@ -7,8 +7,8 @@ html{font-family:sans-serif;-webkit-text-size-adjust:100%;-ms-text-size-adjust:1
 /* line 9, /Users/Bryan/Desktop/projects/greenbleez/app/assets/stylesheets/main.scss */
 #index .logo {
   display: block;
-  width: 8em;
-  margin: auto;
+  width: 10em;
+  margin: 5em auto 0;
 }
 /* line 14, /Users/Bryan/Desktop/projects/greenbleez/app/assets/stylesheets/main.scss */
 #index .logo img {
@@ -16,31 +16,78 @@ html{font-family:sans-serif;-webkit-text-size-adjust:100%;-ms-text-size-adjust:1
   width: 100%;
 }
 /* line 21, /Users/Bryan/Desktop/projects/greenbleez/app/assets/stylesheets/main.scss */
+#index h1 {
+  font-family: 'Lobster', cursive;
+  text-align: center;
+  font-size: 3.5em;
+  margin-top: 1.5em;
+}
+/* line 28, /Users/Bryan/Desktop/projects/greenbleez/app/assets/stylesheets/main.scss */
 #index .slider {
   margin-top: 1em;
 }
-/* line 24, /Users/Bryan/Desktop/projects/greenbleez/app/assets/stylesheets/main.scss */
+/* line 31, /Users/Bryan/Desktop/projects/greenbleez/app/assets/stylesheets/main.scss */
 #index .slider .static {
   position: relative;
   display: block;
   width: 10em;
   margin: auto;
 }
-/* line 32, /Users/Bryan/Desktop/projects/greenbleez/app/assets/stylesheets/main.scss */
+/* line 39, /Users/Bryan/Desktop/projects/greenbleez/app/assets/stylesheets/main.scss */
 #index .information {
   text-align: center;
   margin-top: 4em;
 }
-/* line 38, /Users/Bryan/Desktop/projects/greenbleez/app/assets/stylesheets/main.scss */
-#index .information h1 {
-  font-family: 'Lobster', cursive;
-}
-/* line 42, /Users/Bryan/Desktop/projects/greenbleez/app/assets/stylesheets/main.scss */
+/* line 43, /Users/Bryan/Desktop/projects/greenbleez/app/assets/stylesheets/main.scss */
 #index .information p {
   font-family: 'Open Sans', sans-serif;
   font-weight: 300;
   font-size: 1.1em;
   line-height: 1.75em;
+  padding: 2em 0;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+}
+/* line 54, /Users/Bryan/Desktop/projects/greenbleez/app/assets/stylesheets/main.scss */
+#index .mail {
+  margin-top: 2em;
+}
+/* line 57, /Users/Bryan/Desktop/projects/greenbleez/app/assets/stylesheets/main.scss */
+#index .mail #mc_embed_signup {
+  background: transparent;
+  text-align: center;
+}
+/* line 61, /Users/Bryan/Desktop/projects/greenbleez/app/assets/stylesheets/main.scss */
+#index .mail #mc_embed_signup h2 {
+  text-align: center;
+}
+/* line 69, /Users/Bryan/Desktop/projects/greenbleez/app/assets/stylesheets/main.scss */
+#index .mail #mc_embed_signup form {
+  text-align: center;
+}
+/* line 75, /Users/Bryan/Desktop/projects/greenbleez/app/assets/stylesheets/main.scss */
+#index .left {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 45%;
+  height: 100%;
+  background: url("/assets/geometry.png");
+  background-size: 50%;
+  background-position: center;
+  background-repeat: repeat;
+}
+/* line 87, /Users/Bryan/Desktop/projects/greenbleez/app/assets/stylesheets/main.scss */
+#index .right {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 55%;
+  height: 100%;
+  background: url("/assets/green_cover.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 /*
  * This is a manifest file that'll be compiled into application.css, which will include all the files

@@ -49,23 +49,33 @@ html{font-family:sans-serif;-webkit-text-size-adjust:100%;-ms-text-size-adjust:1
   border-bottom: 1px solid #ddd;
 }
 /* line 54, /Users/Bryan/Desktop/projects/greenbleez/app/assets/stylesheets/main.scss */
+#index .social {
+  text-align: center;
+  padding-top: 2em;
+}
+/* line 58, /Users/Bryan/Desktop/projects/greenbleez/app/assets/stylesheets/main.scss */
+#index .social a {
+  font-size: 2.5em;
+  margin: 0 .5em;
+}
+/* line 68, /Users/Bryan/Desktop/projects/greenbleez/app/assets/stylesheets/main.scss */
 #index .mail {
   margin-top: 2em;
 }
-/* line 57, /Users/Bryan/Desktop/projects/greenbleez/app/assets/stylesheets/main.scss */
+/* line 71, /Users/Bryan/Desktop/projects/greenbleez/app/assets/stylesheets/main.scss */
 #index .mail #mc_embed_signup {
   background: transparent;
   text-align: center;
 }
-/* line 61, /Users/Bryan/Desktop/projects/greenbleez/app/assets/stylesheets/main.scss */
+/* line 75, /Users/Bryan/Desktop/projects/greenbleez/app/assets/stylesheets/main.scss */
 #index .mail #mc_embed_signup h2 {
   text-align: center;
 }
-/* line 69, /Users/Bryan/Desktop/projects/greenbleez/app/assets/stylesheets/main.scss */
+/* line 83, /Users/Bryan/Desktop/projects/greenbleez/app/assets/stylesheets/main.scss */
 #index .mail #mc_embed_signup form {
   text-align: center;
 }
-/* line 75, /Users/Bryan/Desktop/projects/greenbleez/app/assets/stylesheets/main.scss */
+/* line 89, /Users/Bryan/Desktop/projects/greenbleez/app/assets/stylesheets/main.scss */
 #index .left {
   position: absolute;
   left: 0;
@@ -77,7 +87,7 @@ html{font-family:sans-serif;-webkit-text-size-adjust:100%;-ms-text-size-adjust:1
   background-position: center;
   background-repeat: repeat;
 }
-/* line 87, /Users/Bryan/Desktop/projects/greenbleez/app/assets/stylesheets/main.scss */
+/* line 101, /Users/Bryan/Desktop/projects/greenbleez/app/assets/stylesheets/main.scss */
 #index .right {
   position: absolute;
   top: 0;
